@@ -707,6 +707,14 @@ Banner style search
 /* ================
 Features
 ================*/
+.list-group {
+  list-style: decimal inside;
+}
+
+.list-group-item {
+  display: list-item;
+}
+
 .feature-item {
   text-align: center;
   transition: .4s;
