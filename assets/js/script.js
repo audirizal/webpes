@@ -162,6 +162,22 @@
   });
   /* ----------------------------------------------------------- */
 
+  /*  Banner /* ----------------------------------------------------------- */
+
+  function changeImage() {
+    var BackgroundImg = [
+      "assets/images/banner/ban1.webp",
+      "assets/images/banner/ban2.webp",
+      "assets/images/banner/ban3.webp",
+      "assets/images/banner/ban4.webp"
+    ];
+    var i = Math.floor(Math.random() * 4);
+    document.getElementById("bg-banner").style.backgroundImage =
+      'url("' + BackgroundImg[i] + '")';
+  }
+  window.setInterval(changeImage, 5000);
+  
+
   /*  Map
   /* ----------------------------------------------------------- */
 
@@ -170,7 +186,7 @@
   function initialize() {
     var mapOptions = {
       zoom: 13,
-      center: new google.maps.LatLng(50.97797382271958, -114.107718560791) // styles: style_array_here
+      center: new google.maps.LatLng(4.10575883906818, 98.23916991027032) // styles: style_array_here
 
     };
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
