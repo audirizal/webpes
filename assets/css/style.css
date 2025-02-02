@@ -575,6 +575,7 @@ Header TopBar
   background: url("../images/banner/ban1.webp") center center no-repeat;
   background-size: cover;
   position: relative;
+  min-height: 500px;
 }
 
 .banner:before {
