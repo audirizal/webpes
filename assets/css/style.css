@@ -335,6 +335,15 @@ Banner Area
   letter-spacing: 2px;
 }
 
+.subheading-ch {
+  text-transform: lowercase;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #20ad96;
+  letter-spacing: 2px;
+}
+
 button:focus {
   outline: none;
 }
