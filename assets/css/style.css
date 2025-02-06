@@ -324,6 +324,17 @@ Banner Area
   letter-spacing: 2px;
 }
 
+.subheading-v {
+  display: block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #20ad96;
+  letter-spacing: 2px;
+}
+
 button:focus {
   outline: none;
 }
